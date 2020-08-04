@@ -1,6 +1,6 @@
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
   pathPrefix: '/',
@@ -23,15 +23,15 @@ module.exports = {
             resolve: `gatsby-remark-images`,
           },
           `gatsby-remark-lazy-load`,
-        ]
-      }
+        ],
+      },
     },
     {
-    resolve: `gatsby-plugin-minify`,
-    options: {
-      removeAttributeQuotes: true
-      // ...
-    }
+      resolve: `gatsby-plugin-minify`,
+      options: {
+        removeAttributeQuotes: true,
+        // ...
+      },
     },
     'gatsby-plugin-react-helmet',
     {
@@ -46,7 +46,7 @@ module.exports = {
       options: {
         repositoryName: `eloop`,
         accessToken: `${process.env.API_KEY}`,
-        linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
+        linkResolver: ({ node, key, value }) => (post) => `/${post.uid}`,
       },
     },
     'gatsby-transformer-sharp',
@@ -76,7 +76,8 @@ module.exports = {
         langKeyDefault: 'de',
         useLangKeyLayout: true,
       },
-    },
+    }, //,
+    ,
     /*  {
       resolve: `gatsby-plugin-amp`,
       options: {
@@ -95,7 +96,7 @@ module.exports = {
         useAmpClientIdApi: true,
       },
     }, */
-    {
+    /* {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.eloop.at',
@@ -103,14 +104,14 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
-    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-sitemap`, */
     // { resolve: `gatsby-plugin-styled-components`,
     //  options: { Add any options here },},
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     //
     //'gatsby-plugin-sass',
-    {
+    /* {
       resolve: `gatsby-plugin-google-tagmanager-fork`,
       options: {
         id: 'GTM-KP67NXR',
@@ -123,8 +124,7 @@ module.exports = {
         //gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
         //gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
       },
-    }//,
-    //'gatsby-plugin-offline',
-    , 'gatsby-plugin-remove-serviceworker'
+    } */ //'gatsby-plugin-offline',
+    'gatsby-plugin-remove-serviceworker',
   ],
-}
+};
