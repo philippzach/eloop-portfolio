@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="173px" height="131px" viewBox="0 0 173 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4ADEB5" offset="0%"></stop>
+            <stop stop-color="#4ADEB5" stop-opacity="0.219241696" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Connected-cars" transform="translate(-578.000000, -3274.000000)">
+            <g id="Group-18" transform="translate(578.000000, 3271.000000)">
+                <path d="M172.390436,58.0920734 C172.390436,44.3550536 154.907138,18.2635379 120.38976,10.9468111 C68.3432446,-0.0856066851 59.376796,3.02860499 40.3904363,10.9468111 C21.4040765,18.8650173 -15.7947838,105.897878 7.3561372,119.369845 C72.9727509,157.553417 172.390436,111.568808 172.390436,58.0920734 Z" id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <text id="?" font-family="SofiaProBold, Sofia Pro" font-size="100" font-weight="bold" letter-spacing="-0.6717449" fill="#302E2E">
+                    <tspan x="62.0358724" y="95">?</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

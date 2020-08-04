@@ -1,0 +1,8 @@
+@media (max-width: 1000px) {
+    .popup-content {
+        width: 91%!important;
+    }
+}
+.popup-content {
+   border: 10px solid #4adeb5!important;
+}

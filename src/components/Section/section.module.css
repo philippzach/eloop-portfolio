@@ -1,0 +1,108 @@
+.listitems {
+  background-position: 0.25em center;
+  background-repeat: no-repeat;
+  padding-left: 2.5em;
+  background-size: 1em;
+  display: block;
+  margin-top: 10px;
+  line-height: 1.5em;
+  color: #646464;
+}
+.appstore {
+  margin-top: 2rem;
+}
+
+.appbutton {
+  max-width: 11rem;
+  padding: 0 1rem 1rem 0;
+  margin-top: 1rem;
+}
+.appmodule1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features {
+  padding-left: 0;
+}
+@media (max-width: 1000px), (min-width: 1800px) {
+  .cardesktop {
+    display: none;
+  }
+  .row {
+    margin: 8% 8% 0;
+  }
+  .appstore {
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1800px) {
+  .module1 {
+    display: none;
+  }
+  .row {
+    display: flex;
+    margin-top: 10em;
+  }
+  .cardesktop {
+    flex: 50%;
+  }
+  .module2 {
+    flex: 50%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .approw {
+    display: flex;
+    margin-top: 5em;
+  }
+  .appmodule1 {
+    flex: 50%;
+    order: 1;
+  }
+  .appmodule2 {
+    flex: 50%;
+    padding-left: 1em;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 1800px) {
+  .module1 {
+    flex: 50%;
+  }
+  .row {
+    display: flex;
+    max-width: 1250px;
+    margin: 7em auto 0;
+  }
+  .appmodule2 {
+    padding-left: 10%;
+  }
+  .module2 {
+    flex: 50%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .approw {
+    display: flex;
+    margin-top: 5em;
+  }
+  .appmodule1 {
+    flex: 50%;
+    order: 1;
+  }
+  .appmodule2 {
+    flex: 50%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

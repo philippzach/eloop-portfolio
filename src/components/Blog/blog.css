@@ -1,0 +1,11 @@
+@media (min-width: 64em) {
+.bloggrid article:nth-child(1) {
+    grid-column: span 2;
+}
+.bloggrid article:nth-child(7) {
+    grid-column: span 2;
+}
+}
+.blogitemlink {
+    text-decoration: none;
+}

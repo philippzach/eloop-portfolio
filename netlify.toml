@@ -1,0 +1,24 @@
+[[redirects]]
+  from = "/test"
+  to = "/test2"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"]}
+[[redirects]]
+  from = "/test"
+  to = "/test2"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["de"]}
+[[redirects]]
+  from = "https://www.eloop.to/*"
+  to = "https://eloop.at/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://eloop.to/*"
+  to = "https://eloop.at/:splat"
+  status = 301
+  force = true

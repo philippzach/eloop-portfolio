@@ -1,0 +1,34 @@
+.postimage {
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.postimageamp {
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+div.headlines {
+  padding-bottom: 1.6rem;
+}
+.i-amphtml-element {
+  display: block;
+}
+@media (min-width: 600px) {
+  .postimage {
+    float: left;
+    height: 80vh;
+    width: 48vw;
+  }
+  div.headlines {
+    float: right;
+    width: 45vw;
+    height: 80vh;
+    padding: 2vh 3vw;
+    display: flex;
+  }
+  div.headlines div {
+    margin: auto;
+  }
+}

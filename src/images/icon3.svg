@@ -1,0 +1,17 @@
+
+<svg width="65px" height="64px" viewBox="0 0 65 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Web" transform="translate(-950.000000, -817.000000)">
+            <g id="Group-16" transform="translate(953.000000, 817.000000)">
+                <rect id="Rectangle-path" fill="#B6FFE0" fill-rule="nonzero" x="7" y="1.17239551e-13" width="54.144" height="54.144" rx="5.076"></rect>
+                <path d="M16.92,60.912 L3.384,60.912 C1.51506841,60.912 -8.73967565e-13,59.3969316 -8.73967565e-13,57.528 L-8.73967565e-13,49.068" id="Shape" stroke="#1E1E1E" stroke-width="5.384" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M50.76,49.068 L50.76,57.528 C50.76,59.3969316 49.2449316,60.912 47.376,60.912 L33.84,60.912" id="Shape" stroke="#1E1E1E" stroke-width="5.384" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M33.84,10.152 L47.376,10.152 C49.2449316,10.152 50.76,11.6670684 50.76,13.536 L50.76,21.996" id="Shape" stroke="#1E1E1E" stroke-width="5.384" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M-8.73967565e-13,21.996 L-8.73967565e-13,13.536 C-8.73967565e-13,11.6670684 1.51506841,10.152 3.384,10.152 L16.92,10.152" id="Shape" stroke="#1E1E1E" stroke-width="5.384" stroke-linecap="round" stroke-linejoin="round"></path>
+                <text id="P" stroke="#1E1E1E" stroke-width="2.9" font-family="HiraMaruPro-W4, Hiragino Maru Gothic Pro" font-size="30.6252" font-weight="normal" fill="#1E1E1E">
+                    <tspan x="16.3684926" y="46.458">P</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
